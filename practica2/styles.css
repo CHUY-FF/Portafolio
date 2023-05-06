@@ -1,0 +1,26 @@
+body{
+    background: black;
+    color: limegreen;
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+.a{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+table{
+    border: solid 5px green;
+    height: 50vh;
+    width: 50vh;
+    background: black;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px limegreen;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}

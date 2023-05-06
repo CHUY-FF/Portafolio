@@ -1,0 +1,27 @@
+<DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Acceder al documento</title>
+        <style type="text/css">
+            #texto1, #texto2, #texto3 {font: bold 0.9em Algerian; color: blue;}
+        </style>
+    </head>
+    <body>
+        <h1>Acceder al documento</h1>
+        <p id="texto1">Este texto debe ser leido por javasrcript</p>
+        <p onclick="alert(contenido1)">Pulsa aquui para leer el texto anterior.</p>
+        <p id="texto2">Este texto debe ser sustituido por el codigo de javascript</p>
+        <p onclick="elemento2.innerHTML = texto2">Pulsa aqui para cambiar el texto anterior.</p>
+        <p id="texto3">Este texto debe ser ampliado mediante codigo javascript.</p>
+        <p onclick="elemento3.innerHTML+= texto3">Pulsa aqui para ampliar el texto de ampliar.</p>
+        <script type="text/javascript">
+        \\Lectura del elemento 1
+            elemento1= document.getElementById("texto1")
+            contenido 1 = elemento1.innerHTML
+            \\sustituir el elemento 2.El ultimo paso esta en la instruccion onclick
+            var texto2="este es el texto ya cambiado"
+            elemento 2= document.getElementById("texto2")
+            \\Ampliar el elemento3
+        </script>
+    </body>
+</html>
